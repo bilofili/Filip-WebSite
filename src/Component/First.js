@@ -1,10 +1,22 @@
 import { motion, useAnimation } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FirstConten } from "./FirstConten";
+
+import myPhoto from "./Icons/sticker.png";
 
 function First() {
 
   const controls = useAnimation();
+
+  const [vision, setVision] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setVision(true);
+    }, 6300); 
+
+    return () => clearTimeout(timeout);
+  }, []);
   
   useEffect(() => {
     const sequence = async () => {
@@ -46,8 +58,19 @@ function First() {
         animate={controls}
         initial={{ scale: 1, rotate: 0, borderRadius: "0%" }}
         > 
-          <FirstConten />
+        <FirstConten />
         </motion.div>
+
+        { vision && (
+        <motion.img 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }} 
+        transition={{ duration: 2.5 }}
+        src={myPhoto} 
+        alt="myPhoto" 
+        id='photo' />
+        )}
+
     </div>
   );
 }

@@ -6,6 +6,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
 
+
 export const FirstConten = () => {
 
     const [vision, setVision] = useState(false);
