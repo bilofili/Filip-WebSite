@@ -40,7 +40,6 @@ export const Second = () => {
                             </div>
                         </div>   
                     </div>
-
                     
                 </div>
 
@@ -50,6 +49,8 @@ export const Second = () => {
                     </div>
                 </div>
             </div>
+
+            <img src={myImg} alt='myImg' className='mobl-img-my'/>
 
         </section>
     )

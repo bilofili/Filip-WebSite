@@ -2,8 +2,6 @@ import { motion, useAnimation } from "framer-motion";
 import { useEffect, useState } from "react";
 import { FirstConten } from "./FirstConten";
 
-import myPhoto from "./Icons/sticker.png";
-
 function First() {
 
   const controls = useAnimation();
@@ -60,17 +58,6 @@ function First() {
         > 
         <FirstConten />
         </motion.div>
-
-        { vision && (
-        <motion.img 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }} 
-        transition={{ duration: 2.5 }}
-        src={myPhoto} 
-        alt="myPhoto" 
-        id='photo' />
-        )}
-
     </div>
   );
 }
