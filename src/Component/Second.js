@@ -27,16 +27,16 @@ export const Second = () => {
                         <div className="cont-posititons-2">    
                         <h2>My skills</h2>
                             <div className="ic-sk-bl">
-                                <img src={html} alt="" className="icon-sk"/>
-                                <img src={css} alt="" className="icon-sk"/>
-                                <img src={javaScript} alt="" className="icon-sk"/>
-                                <img src={typeScipt} alt="" className="icon-sk"/>
+                                <img src={html} alt="Html" className="icon-sk"/>
+                                <img src={css} alt="Css" className="icon-sk"/>
+                                <img src={javaScript} alt="javaScript" className="icon-sk"/>
+                                <img src={typeScipt} alt="TypeScript" className="icon-sk"/>
                             </div>
                             <div className="ic-sk-bl">
-                                <img src={react} alt="" className="icon-sk"/>
-                                <img src={cSharp} alt="" className="icon-sk"/>
-                                <img src={bootstrap} alt="" className="icon-sk"/>
-                                <img src={figma} alt="" className="icon-sk"/>
+                                <img src={react} alt="React" className="icon-sk"/>
+                                <img src={cSharp} alt="C#" className="icon-sk"/>
+                                <img src={bootstrap} alt="Bootstrap" className="icon-sk"/>
+                                <img src={figma} alt="Figma" className="icon-sk"/>
                             </div>
                         </div>   
                     </div>

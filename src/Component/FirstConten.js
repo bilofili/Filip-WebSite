@@ -35,7 +35,7 @@ export const FirstConten = () => {
 
             { vision && (
                 <motion.section 
-                class="box-content"
+                className="box-content"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }} 
                 transition={{ duration: 1.5 }}
