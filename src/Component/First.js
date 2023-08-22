@@ -8,6 +8,10 @@ function First() {
 
   const [vision, setVision] = useState(false);
 
+  if (vision) {
+    
+  }
+
   useEffect(() => {
     const timeout = setTimeout(() => {
       setVision(true);
