@@ -12,46 +12,37 @@ import figma from "../Component/Skill_Img/figma.png";
 export const Second = () => {
 
     return (
-        <section id="second">
-            <div className="mine-flex-bl">
+        <main id='main'>
+            <div className='mn-bl'>
 
-                <div className='bl-2'>
-                    <div className='cont-bl-2'>
-
-                     <div className='cont-posititons-1'>  
-                        <h2>About me</h2>
-                        <p>Passionate JavaScript and React enthusiast with a strong desire to contribute to innovative projects. Proficient in leveraging the power of these technologies to create dynamic and engaging web applications. Adept at problem-solving and continuously enhancing skills through self-directed learning. Open-minded and adaptable, eagerly embracing new challenges in the ever-evolving tech landscape.</p>
-                        <button>Contact me</button>
-                    </div>     
-
-                        <div className="cont-posititons-2">    
-                        <h2>My skills</h2>
-                            <div className="ic-sk-bl">
-                                <img src={html} alt="Html" className="icon-sk"/>
-                                <img src={css} alt="Css" className="icon-sk"/>
-                                <img src={javaScript} alt="javaScript" className="icon-sk"/>
-                                <img src={typeScipt} alt="TypeScript" className="icon-sk"/>
-                            </div>
-                            <div className="ic-sk-bl">
-                                <img src={react} alt="React" className="icon-sk"/>
-                                <img src={cSharp} alt="C#" className="icon-sk"/>
-                                <img src={bootstrap} alt="Bootstrap" className="icon-sk"/>
-                                <img src={figma} alt="Figma" className="icon-sk"/>
-                            </div>
-                        </div>   
-                    </div>
-                    
+                <div className='part-one'>
+                    <h2>About me</h2>
+                    <p>Passionate JavaScript and React enthusiast with a strong desire to contribute to innovative projects. Proficient in leveraging the power of these technologies to create dynamic and engaging web applications. Adept at problem-solving and continuously enhancing skills through self-directed learning. Open-minded and adaptable, eagerly embracing new challenges in the ever-evolving tech landscape.</p>
+                    <button>Contact me</button>
                 </div>
 
-                <div className='bl-1'>
-                    <div className='oval-bl'>
-                        <img src={myImg} alt='myImg'  className='my-img-sc' />
+                <div className='part-two'>
+                <h2>My skills</h2>
+                    <div className="ic-sk-bl">
+                        <img src={html} alt="Html" className="icon-sk"/>
+                        <img src={css} alt="Css" className="icon-sk"/>
+                        <img src={javaScript} alt="javaScript" className="icon-sk"/>
+                        <img src={typeScipt} alt="TypeScript" className="icon-sk"/>
                     </div>
+                    <div className="ic-sk-bl">
+                        <img src={react} alt="React" className="icon-sk"/>
+                        <img src={cSharp} alt="C#" className="icon-sk"/>
+                        <img src={bootstrap} alt="Bootstrap" className="icon-sk"/>
+                        <img src={figma} alt="Figma" className="icon-sk"/>
+                    </div>
+
+                    <div className='bg-round'>
+                        <img src={myImg} alt='myImg' className='my-img-sc' />
+                    </div>
+
                 </div>
+                
             </div>
-
-            <img src={myImg} alt='myImg' className='mobl-img-my'/>
-
-        </section>
+        </main>
     )
 }
