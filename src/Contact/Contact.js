@@ -1,9 +1,4 @@
-import space from './Space.png';
-import mars from './mars.png';
 import { Link } from "react-router-dom";
-
-import { motion } from "framer-motion";
-
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -39,22 +34,6 @@ export const Contact = () => {
   
                 </form>  
             </div>
-
-            <motion.img
-             initial={{ x: 400, y: 400 }}
-             animate={{
-                x: [400, 0], 
-                y: [400, 0], 
-             }}
-             transition={{ duration: 5, loop: Infinity }}
-             src={space} alt='space' className='spacePng'/>
-
-            <motion.img src={mars} alt='space' className='marsPng'
-            initial={{ rotate: 0 }}
-            animate={{ rotate: 360 }}
-            transition={{ duration: 32, loop: Infinity, ease: "linear" }}
-            />
-
         </div>
     )
 }

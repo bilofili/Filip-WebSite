@@ -264,27 +264,6 @@ nav .logo {
   background-color: #04131a;
 }
 
-.contact .spacePng {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-
-  width: 400px;
-  height: 400px;
-  opacity: 0.8;
-}
-
-.contact .marsPng {
-  position: absolute;
-  top: -20px;
-  left: -20px;
-
-  width: 400px;
-  height: 400px;
-
-  opacity: 0.8;
-}
-
 .contact-cnt {
   display: flex;
   flex-direction: column;

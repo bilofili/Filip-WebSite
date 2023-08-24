@@ -41,7 +41,7 @@ export const FirstConten = () => {
                 transition={{ duration: 1.5 }}
                 >
                 <h1>I'm Front-End Web Developer</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Development, innovation, and creative solutions - that's my world. As a Front-end web developer, I offer you the keys to creating unique and interactive websites. Ready to bring your ideas to life? Let's embark on this exciting journey, click 'Get Started'.</p>
                 <button>Get Start</button>
                 <div className="icons-bl">
                   <img src={insta} alt="Instagram" className="icon" />
