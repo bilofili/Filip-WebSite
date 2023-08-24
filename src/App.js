@@ -1,15 +1,24 @@
-import First from "./Component/First";
-import { Second } from "./Component/Second";
-import { Three } from "./Component/Three";
+import { Contact } from "./Contact/Contact";
+import Prom from "./Prom";
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+
 
 function App() {
 
-  return <div className="App">
-    <First />
-    <Second />
-    <Three />
-  </div>
+  return <Router>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Prom />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
+    </div>
+  </Router>
 }
 
 export default App;

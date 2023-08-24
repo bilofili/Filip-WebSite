@@ -40,7 +40,7 @@ export const FirstConten = () => {
                 animate={{ opacity: 1 }} 
                 transition={{ duration: 1.5 }}
                 >
-                <h1>NEVER STOP TO EXPLORING THE WORLD</h1>
+                <h1>I'm Front-End Web Developer</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <button>Get Start</button>
                 <div className="icons-bl">

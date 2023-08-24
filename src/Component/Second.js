@@ -1,3 +1,5 @@
+import React, { Link } from "react-router-dom";
+
 import myImg from '../Component/sc-bl-img.png';
 
 import html from "../Component/Skill_Img/html.png";
@@ -18,7 +20,7 @@ export const Second = () => {
                 <div className='part-one'>
                     <h2>About me</h2>
                     <p>Passionate JavaScript and React enthusiast with a strong desire to contribute to innovative projects. Proficient in leveraging the power of these technologies to create dynamic and engaging web applications. Adept at problem-solving and continuously enhancing skills through self-directed learning. Open-minded and adaptable, eagerly embracing new challenges in the ever-evolving tech landscape.</p>
-                    <button>Contact me</button>
+                    <Link to="/contact">Contact me</Link>
                 </div>
 
                 <div className='part-two'>
